@@ -21,3 +21,5 @@ Offline-first Android app that personalizes "benefits + actions" for Indian citi
 
 ## CI
 - GitHub Actions builds a Debug APK on every push and PR.
+
+> Note: Kotlin 2.0+ requires the Compose Compiler Gradle plugin. This project includes it.
