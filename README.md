@@ -23,3 +23,6 @@ Offline-first Android app that personalizes "benefits + actions" for Indian citi
 - GitHub Actions builds a Debug APK on every push and PR.
 
 > Note: Kotlin 2.0+ requires the Compose Compiler Gradle plugin. This project includes it.
+
+## Troubleshooting
+- If you see `Theme.Material3.DayNight.NoActionBar not found`, ensure `com.google.android.material:material` is included.
